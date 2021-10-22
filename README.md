@@ -19,16 +19,11 @@ ckplayer不存在安装过程，将下载包里的ckplayer文件夹（该文件�
     var videoObject = {
         container: '.video', //“#”代表容器的ID，“.”或“”代表容器的class
         variable: 'player', //播放函数名称，该属性必需设置，值等于下面的new ckplayer()的对象
-        video: 'http://ckplayer-video.oss-cn-shanghai.aliyuncs.com/sample-mp4/05cacb4e02f9d9e.mp4'//视频地址
+        video: '***'//视频地址
     };
     var player = new ckplayer(videoObject);//初始化播放器
 </script>
 ```
 
 
-#### 使用说明
-使用过程中碰到问题，请至官网查看手册：http://www.ckplayer.com/manual/
-
-#### 参与贡献
-niandeng
 
